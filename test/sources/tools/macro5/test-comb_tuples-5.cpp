@@ -7,7 +7,7 @@
 #define dTEST_METHOD comb_tuples_5
 #define dTEST_TAG tdd
 
-#include <tools/macro/comb-tuples-5.hpp>
+#include <tools/macro/comb_tuples-5.hpp>
 #include <test-staff.hpp>
 //==============================================================================
 //=== example ==================================================================

@@ -8,6 +8,7 @@
 #define dTEST_TAG tdd
 
 #include <tools/macro/foreach-5.hpp>
+#include <test-staff.hpp>
 //=== example ==================================================================
 namespace
 {
@@ -33,11 +34,11 @@ namespace
 
 TEST_COMPONENT(000)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     pp_enum(Arg, A);
 
-    const auto result = ss.str();
-    const auto etalon = "beg{1}[1, Arg VS A]{1}end";
+    const str_t result = ss.str();
+    const char* etalon = "beg{1}[1, Arg VS A]{1}end";
     ASSERT_EQ(result, etalon)
         << "etalon: " << etalon << '\n'
         << "result: " << result << '\n'
@@ -45,11 +46,11 @@ TEST_COMPONENT(000)
 }
 TEST_COMPONENT(001)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     pp_enum(Arg, A,B);
 
-    const auto result = ss.str();
-    const auto etalon = "beg{2}[1, Arg VS A],[2, Arg VS B]{2}end";
+    const str_t result = ss.str();
+    const char* etalon = "beg{2}[1, Arg VS A],[2, Arg VS B]{2}end";
     ASSERT_EQ(result, etalon)
         << "etalon: " << etalon << '\n'
         << "result: " << result << '\n'
@@ -57,11 +58,11 @@ TEST_COMPONENT(001)
 }
 TEST_COMPONENT(002)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     pp_enum(Arg, A,B,C);
 
-    const auto result = ss.str();
-    const auto etalon = "beg{3}[1, Arg VS A],[2, Arg VS B],[3, Arg VS C]{3}end";
+    const str_t result = ss.str();
+    const char* etalon = "beg{3}[1, Arg VS A],[2, Arg VS B],[3, Arg VS C]{3}end";
     ASSERT_EQ(result, etalon)
         << "etalon: " << etalon << '\n'
         << "result: " << result << '\n'
@@ -69,11 +70,11 @@ TEST_COMPONENT(002)
 }
 TEST_COMPONENT(004)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     pp_enum(Arg, A,B,C,D);
 
-    const auto result = ss.str();
-    const auto etalon = "beg{4}[1, Arg VS A],[2, Arg VS B],[3, Arg VS C],[4, Arg VS D]{4}end";
+    const str_t result = ss.str();
+    const char* etalon = "beg{4}[1, Arg VS A],[2, Arg VS B],[3, Arg VS C],[4, Arg VS D]{4}end";
     ASSERT_EQ(result, etalon)
         << "etalon: " << etalon << '\n'
         << "result: " << result << '\n'
@@ -81,11 +82,11 @@ TEST_COMPONENT(004)
 }
 TEST_COMPONENT(005)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     pp_enum(Arg, A,B,C,D,F);
 
-    const auto result = ss.str();
-    const auto etalon = "beg{5}[1, Arg VS A],[2, Arg VS B],[3, Arg VS C],[4, Arg VS D],[5, Arg VS F]{5}end";
+    const str_t result = ss.str();
+    const char* etalon = "beg{5}[1, Arg VS A],[2, Arg VS B],[3, Arg VS C],[4, Arg VS D],[5, Arg VS F]{5}end";
     ASSERT_EQ(result, etalon)
         << "etalon: " << etalon << '\n'
         << "result: " << result << '\n'

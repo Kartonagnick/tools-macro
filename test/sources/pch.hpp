@@ -18,11 +18,11 @@
 //================================================================================
 //================================================================================
 
-// #include <tools/features.hpp>
-// #include <tools/assert.hpp>
-
+#include <tools/features.hpp>
+#include <tools/assert.hpp>
 #include <cassert>
 #include <cstddef>
+#include <sstream>
 #include <string>
 
 //==============================================================================

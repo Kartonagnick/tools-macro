@@ -8,7 +8,7 @@
 #define dTEST_TAG tdd
 
 #include <tools/macro/overload-5.hpp>
-
+#include <test-staff.hpp>
 //==============================================================================
 //=== example ==================================================================
 namespace
@@ -56,50 +56,50 @@ namespace
 //--- dPRINT
 TEST_COMPONENT(000)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dPRINT();
-    const auto result = ss.str();
-    const auto etalon = "empty";
+    const str_t result = ss.str();
+    const char* etalon = "empty";
     ASSERT_EQ(result, etalon);
 }
 TEST_COMPONENT(001)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dPRINT(1);
-    const auto result = ss.str();
-    const auto etalon = "1";
+    const str_t result = ss.str();
+    const char* etalon = "1";
     ASSERT_EQ(result, etalon);
 }
 TEST_COMPONENT(002)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dPRINT(1,2);
-    const auto result = ss.str();
-    const auto etalon = "1, 2";
+    const str_t result = ss.str();
+    const char* etalon = "1, 2";
     ASSERT_EQ(result, etalon);
 }
 TEST_COMPONENT(003)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dPRINT(1,2,3);
-    const auto result = ss.str();
-    const auto etalon = "1, 2, 3";
+    const str_t result = ss.str();
+    const char* etalon = "1, 2, 3";
     ASSERT_EQ(result, etalon);
 }
 TEST_COMPONENT(004)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dPRINT(1,2,3,4);
-    const auto result = ss.str();
-    const auto etalon = "1, 2, 3, 4";
+    const str_t result = ss.str();
+    const char* etalon = "1, 2, 3, 4";
     ASSERT_EQ(result, etalon);
 }
 TEST_COMPONENT(005)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dPRINT(1,2,3,4,5);
-    const auto result = ss.str();
-    const auto etalon = "1, 2, 3, 4, 5";
+    const str_t result = ss.str();
+    const char* etalon = "1, 2, 3, 4, 5";
     ASSERT_EQ(result, etalon);
 }
 
@@ -138,26 +138,26 @@ TEST_COMPONENT(011)
 // --- dlaunch_zero_or_more_arguments
 TEST_COMPONENT(012)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dlaunch_zero_or_more_arguments();
-    const auto result = ss.str();
-    const auto etalon = "empty";
+    const str_t result = ss.str();
+    const char* etalon = "empty";
     ASSERT_EQ(result, etalon);
 }
 TEST_COMPONENT(013)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dlaunch_zero_or_more_arguments(1);
-    const auto result = ss.str();
-    const auto etalon = "more: 1";
+    const str_t result = ss.str();
+    const char* etalon = "more: 1";
     ASSERT_EQ(result, etalon);
 }
 TEST_COMPONENT(014)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dlaunch_zero_or_more_arguments(1, 2);
-    const auto result = ss.str();
-    const auto etalon = "more: 1, 2";
+    const str_t result = ss.str();
+    const char* etalon = "more: 1, 2";
     ASSERT_EQ(result, etalon);
 }
 

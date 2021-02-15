@@ -8,6 +8,7 @@
 #define dTEST_TAG tdd
 
 #include <tools/macro/comb-values-7.hpp>
+#include <test-staff.hpp>
 //==============================================================================
 //=== example ==================================================================
 namespace
@@ -25,28 +26,28 @@ namespace
 // --- (1)
 TEST_COMPONENT(000)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dCOMB_VALUES_MAX_7(pp_macro, pp_delim, 1);
-    const auto result = ss.str();
-    const auto etalon = "(1, 1:1)";
+    const str_t result = ss.str();
+    const char* etalon = "(1, 1:1)";
     ASSERT_EQ(result, etalon);
 }
 TEST_COMPONENT(001)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dCOMB_VALUES_MAX_7(pp_macro, pp_delim, 1,2);
-    const auto result = ss.str();
-    const auto etalon = 
+    const str_t result = ss.str();
+    const char* etalon = 
         "(1, 1:1), (2, 1:2), "
         "(1, 2:1), (2, 2:2)";
     ASSERT_EQ(result, etalon);
 }
 TEST_COMPONENT(003)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dCOMB_VALUES_MAX_7(pp_macro, pp_delim, 1,2,3);
-    const auto result = ss.str();
-    const auto etalon = 
+    const str_t result = ss.str();
+    const char* etalon = 
         "(1, 1:1), (2, 1:2), (3, 1:3), "
         "(1, 2:1), (2, 2:2), (3, 2:3), "
         "(1, 3:1), (2, 3:2), (3, 3:3)" ;
@@ -54,10 +55,10 @@ TEST_COMPONENT(003)
 }
 TEST_COMPONENT(004)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dCOMB_VALUES_MAX_7(pp_macro, pp_delim, 1,2,3,4);
-    const auto result = ss.str();
-    const auto etalon = 
+    const str_t result = ss.str();
+    const char* etalon = 
         "(1, 1:1), (2, 1:2), (3, 1:3), (4, 1:4), "
         "(1, 2:1), (2, 2:2), (3, 2:3), (4, 2:4), "
         "(1, 3:1), (2, 3:2), (3, 3:3), (4, 3:4), "
@@ -66,10 +67,10 @@ TEST_COMPONENT(004)
 }
 TEST_COMPONENT(006)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dCOMB_VALUES_MAX_7(pp_macro, pp_delim, 1,2,3,4,5);
-    const auto result = ss.str();
-    const auto etalon = 
+    const str_t result = ss.str();
+    const char* etalon = 
         "(1, 1:1), (2, 1:2), (3, 1:3), (4, 1:4), (5, 1:5), "
         "(1, 2:1), (2, 2:2), (3, 2:3), (4, 2:4), (5, 2:5), "
         "(1, 3:1), (2, 3:2), (3, 3:3), (4, 3:4), (5, 3:5), "
@@ -79,10 +80,10 @@ TEST_COMPONENT(006)
 }
 TEST_COMPONENT(007)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dCOMB_VALUES_MAX_7(pp_macro, pp_delim, 1,2,3,4,5,6);
-    const auto result = ss.str();
-    const auto etalon = 
+    const str_t result = ss.str();
+    const char* etalon = 
         "(1, 1:1), (2, 1:2), (3, 1:3), (4, 1:4), (5, 1:5), (6, 1:6), "
         "(1, 2:1), (2, 2:2), (3, 2:3), (4, 2:4), (5, 2:5), (6, 2:6), "
         "(1, 3:1), (2, 3:2), (3, 3:3), (4, 3:4), (5, 3:5), (6, 3:6), "
@@ -93,10 +94,10 @@ TEST_COMPONENT(007)
 }
 TEST_COMPONENT(008)
 {
-    ::std::stringstream ss;
+    sstrem_t ss;
     dCOMB_VALUES_MAX_7(pp_macro, pp_delim, 1,2,3,4,5,6,7);
-    const auto result = ss.str();
-    const auto etalon = 
+    const str_t result = ss.str();
+    const char* etalon = 
         "(1, 1:1), (2, 1:2), (3, 1:3), (4, 1:4), (5, 1:5), (6, 1:6), (7, 1:7), "
         "(1, 2:1), (2, 2:2), (3, 2:3), (4, 2:4), (5, 2:5), (6, 2:6), (7, 2:7), "
         "(1, 3:1), (2, 3:2), (3, 3:3), (4, 3:4), (5, 3:5), (6, 3:6), (7, 3:7), "

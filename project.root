@@ -1,4 +1,4 @@
-﻿INCLUDE_CONFIGURATIONS = 
+INCLUDE_CONFIGURATIONS = msvc2015; msvc2017; msvc2019; mingw-all
 EXCLUDE_CONFIGURATIONS = 
 VERSION = sources/confbuild.hpp
 

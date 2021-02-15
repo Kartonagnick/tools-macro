@@ -1,21 +1,18 @@
 
-// [2021y-02m-05d] Idrisov Denis R.
+// [2021y-02m-07d] Idrisov Denis R.
 #pragma once
+#ifndef dTOOLS_ASSERT_USED_
+#define dTOOLS_ASSERT_USED_ 100
 //==============================================================================
 //==============================================================================
 
-#include <tools/features.hpp>
-#include <tools/assert.hpp>
-#include <cstddef>
-#include <string>
-
-namespace staff
-{
-    typedef ::std::string  str_t;
-    typedef ::std::wstring str_w;
-    typedef ::std::basic_string<int> str_i;
-
-} // namespace staff
+#ifdef NDEBUG
+    #define dASSERT(...)
+#else
+    #include <cassert>
+    #define dASSERT(...) assert(__VA_ARGS__)
+#endif
 
 //==============================================================================
 //==============================================================================
+#endif // !dTOOLS_ASSERT_USED_

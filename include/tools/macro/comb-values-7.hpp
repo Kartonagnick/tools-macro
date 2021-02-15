@@ -14,7 +14,7 @@
 #ifndef dTOOLS_MACRO_COMB_VALUES_7_USED_
 #define dTOOLS_MACRO_COMB_VALUES_7_USED_ 1
                                 
-#include <tools/macro/args7/macro_foreach_7.hpp>
+#include <tools/macro/foreach-7.hpp>
 //==============================================================================
 //==============================================================================
 

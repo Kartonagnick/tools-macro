@@ -11,10 +11,10 @@ rem ============================================================================
 
     set "VC=msvc:64:debug:static"
     set "MG=mingw:64:all:static"
-    rem set "order=%VC%"
+    set "order=%VC%"
     rem set "order=%MG%"
     rem set "order=%VC%; %MG%"
-    set "order=all"
+    rem set "order=all"
 
     rem for development
     rem (call :generate) && (goto :success) || (goto :failed)

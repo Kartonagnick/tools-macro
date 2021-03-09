@@ -1,4 +1,4 @@
-
+// [2021y-02m-16d][00:59:26] Idrisov Denis R.
 #include <mygtest/modern.hpp>
 
 #ifdef TEST_TOOLS_MACRO_OVERLOAD_5

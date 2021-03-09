@@ -1,9 +1,9 @@
-
-// [2021y-02m-15d] Idrisov Denis R.
-// [2021y-02m-15d] birthday of the project
+// [2021y-02m-15d][23:28:19] Idrisov Denis R.
+// [2021y-02m-15d][23:28:19] birthday of the project
+// [2021y-03m-09d][21:23:00] Idrisov Denis R. PRE
 #pragma once
 #ifndef dTOOLS_MACRO_CONFBUILD_USED_
-#define dTOOLS_MACRO_CONFBUILD_USED_ 100
+#define dTOOLS_MACRO_CONFBUILD_USED_ 101 PRE
 //==============================================================================
 //==============================================================================
 
@@ -43,7 +43,7 @@
 
 #define dVERSION_MAJOR      1
 #define dVERSION_MINOR      0
-#define dVERSION_PATCH      0
+#define dVERSION_PATCH      1
 
 #define dSTRINGIZE(...) #__VA_ARGS__
 #define dSSTRINGIZE(x) dSTRINGIZE(x)

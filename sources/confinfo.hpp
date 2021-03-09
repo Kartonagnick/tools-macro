@@ -1,6 +1,4 @@
-﻿
-// [2021y-02m-15d] Idrisov Denis R.
-
+﻿// [2021y-02m-15d][23:28:19] Idrisov Denis R.
 #pragma once
 #ifndef dTOOLS_MACRO_CONFINFO_USED_
 #define dTOOLS_MACRO_CONFINFO_USED_ 100

@@ -1,9 +1,9 @@
 // [2021y-02m-15d][23:28:19] Idrisov Denis R.
 // [2021y-02m-15d][23:28:19] birthday of the project
-// [2021y-03m-09d][21:23:00] Idrisov Denis R. PRE
+// [2021y-03m-09d][21:37:07] Idrisov Denis R.
 #pragma once
 #ifndef dTOOLS_MACRO_CONFBUILD_USED_
-#define dTOOLS_MACRO_CONFBUILD_USED_ 101 PRE
+#define dTOOLS_MACRO_CONFBUILD_USED_ 101
 //==============================================================================
 //==============================================================================
 

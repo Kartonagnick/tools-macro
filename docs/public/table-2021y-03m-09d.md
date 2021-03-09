@@ -5,12 +5,13 @@
 [B1]: ../images/limited-bad.png    "2021y-03m-09d"
 [F1]: ../images/limited-fail.png   "2021y-03m-09d"
 
-[X1]: ../images/failed.png    "2021y-02m-16d"
-[V1]: ../images/success.png   "2021y-02m-16d"
-[E1]: ../images/nodata.png    "2021y-02m-16d"
-[N1]: ../images/na.png        "2021y-02m-16d"
+[P1]: ../images/progress.png       "2021y-03m-09d"
+[X1]: ../images/failed.png         "2021y-03m-09d"
+[V1]: ../images/success.png        "2021y-03m-09d"
+[E1]: ../images/nodata.png         "2021y-03m-09d"
+[N1]: ../images/na.png             "2021y-03m-09d"
 
-version 1.0.1  ![P1]
+version 1.0.1
 
 | **ID** | **компоненты** |  mingw810  |  mingw730  |  msvc720   |  
 |:------:|:--------------:|:----------:|:----------:|:----------:|  

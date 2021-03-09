@@ -2,13 +2,12 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //+ created: 2019y-05m-15d 11:15:19 May                        +
 //+ changed: 2020y-04m-19d 08:07:24 April                      +
-//+ macro_overload_5.hpp                                       +
+//+ macro/overload-5.hpp                                       +
 //+                                            Tools's library +
 //+                         Copyright @ 2019, Castle Of Dreams +
 //+                                     [author: Idrisov D. R] +
 //+                                   CastleOfDreams@yandex.ru +
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 
 #pragma once
 #ifndef dTOOLS_MACRO_OVERLOAD_5_USED_
@@ -117,5 +116,4 @@
 
 //==============================================================================
 //==============================================================================
-
 #endif // !dTOOLS_MACRO_OVERLOAD_5_USED_

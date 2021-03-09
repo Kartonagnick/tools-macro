@@ -2,13 +2,12 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //+ created: 2019y-05m-16d 13:29:41 May                        +
 //+ changed: 2020y-04m-19d 17:08:17 April                      +
-//+ macro_comb_values_7.hpp                                    +
+//+ macro/comb_values-7.hpp                                    +
 //+                                            Tools's library +
 //+                         Copyright @ 2019, Castle Of Dreams +
 //+                                     [author: Idrisov D. R] +
 //+                                   CastleOfDreams@yandex.ru +
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 
 #pragma once
 #ifndef dTOOLS_MACRO_COMB_VALUES_7_USED_
@@ -84,5 +83,4 @@ int main()
 #endif
 //==============================================================================
 //==============================================================================
-
 #endif // !dTOOLS_MACRO_COMB_VALUES_7_USED_

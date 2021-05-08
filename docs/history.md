@@ -8,6 +8,23 @@
 
 **История изменений**  
 
+**Версия 1.0.2 (боевая)**  
+-------------------------
+[2021y-05m-08d][23:44:00] #9_update PRE
+1) Обновление tools:
+    - assert.hpp                 101  
+    - features.hpp               118  
+
+2) Обновление macro:
+    - Добавлен macro.hpp         101 PRE 
+    - Добавлен make_version.hpp  100
+
+3) Добавлен pragma:
+    - pragma.hpp                 103 PRE
+    - compilers.hpp              100
+    - confbuild.hpp              101
+    - view_build.hpp             102 PRE
+    - warning.hpp                100
 
 **Версия 1.0.1 (боевая)**  
 -------------------------

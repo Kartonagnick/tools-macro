@@ -1,15 +1,15 @@
 
 [![logo](../logo.png)](../home.md "for developers") 
 
-[L1]: ../images/limited-well.png   "2021y-03m-09d"
-[B1]: ../images/limited-bad.png    "2021y-03m-09d"
-[F1]: ../images/limited-fail.png   "2021y-03m-09d"
+[L1]: ../icons/limited-well.png   "2021y-03m-09d"
+[B1]: ../icons/limited-bad.png    "2021y-03m-09d"
+[F1]: ../icons/limited-fail.png   "2021y-03m-09d"
 
-[P1]: ../images/progress.png       "2021y-03m-09d"
-[X1]: ../images/failed.png         "2021y-03m-09d"
-[V1]: ../images/success.png        "2021y-03m-09d"
-[E1]: ../images/nodata.png         "2021y-03m-09d"
-[N1]: ../images/na.png             "2021y-03m-09d"
+[P1]: ../icons/progress.png       "2021y-03m-09d"
+[X1]: ../icons/failed.png         "2021y-03m-09d"
+[V1]: ../icons/success.png        "2021y-03m-09d"
+[E1]: ../icons/nodata.png         "2021y-03m-09d"
+[N1]: ../icons/na.png             "2021y-03m-09d"
 
 version 1.0.1
 

@@ -4,16 +4,17 @@
 // [2021y-03m-18d][23:45:05] Idrisov Denis R. 100
 // [2021y-03m-19d][23:01:17] Idrisov Denis R. 101
 // [2021y-03m-22d][23:01:17] Idrisov Denis R. 102
-// [2021y-04m-20d][16:08:51] Idrisov Denis R. 103 PRE
+// [2021y-04m-20d][16:08:51] Idrisov Denis R. 103
+// [2021y-04m-08d][23:54:51] Idrisov Denis R. 104
 //==============================================================================
 //==============================================================================
 #pragma once
 #ifndef dTOOLS_PRAGMA_USED_ 
-#define dTOOLS_PRAGMA_USED_ 103 PRE
+#define dTOOLS_PRAGMA_USED_ 104
 
 #define dPRAGMA_MAJOR 1
 #define dPRAGMA_MINOR 0
-#define dPRAGMA_PATCH 3
+#define dPRAGMA_PATCH 4
 
 //==============================================================================
 //==============================================================================

@@ -1,7 +1,8 @@
-// [2021y-04m-29d][14:27:04] Idrisov Denis R. 100 PRE
+// [2021y-04m-29d][14:27:04] Idrisov Denis R. 100
+// [2021y-05m-08d][23:54:07] Idrisov Denis R. 101
 #pragma once
 #ifndef dTOOLS_COMPILERS_USED_ 
-#define dTOOLS_COMPILERS_USED_ 100 PRE
+#define dTOOLS_COMPILERS_USED_ 101
 //==============================================================================
 //=== dMESSAGE =================================================================
 

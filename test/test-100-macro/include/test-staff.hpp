@@ -22,10 +22,10 @@
     #define dCONSTANT const
 #endif
 
-typedef ::std::stringstream sstrem_t;
 typedef ::std::string  str_t;
 typedef ::std::wstring str_w;
 typedef ::std::basic_string<int> str_i;
+typedef ::std::stringstream sstrem_t;
 
 //==============================================================================
 //==============================================================================
